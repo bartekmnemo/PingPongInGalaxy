@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkgray;
+}
+
+canvas {
+    border: 3px solid #fff;
+}
+
+
+div {
+    font-size: 62px;
+}
+
+.player {
+    position: fixed;
+    top: 25px;
+    left: 50px;
+    color: greenyellow;
+    opacity: 0.75;
+    user-select: none;
+}
+
+.ai {
+    position: fixed;
+    top: 25px;
+    right: 50px;
+    color: crimson;
+    opacity: 0.75;
+    user-select: none;
+}
+
+.startGame {
+    position: fixed;
+    top: 30%;
+    user-select: none;
+    font-size: 64px;
+    color: yellow;
+    opacity: 0.6;
+}
